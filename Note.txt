@@ -1,0 +1,46 @@
+CSS is known as Cascading Style Sheets. It is used to design the layout of a webpage. It is a language that is used to describe how HTML elements are to be displayed beautifully on screen.
+CSS is used to style and layout web pages — controlling the layout of multiple web pages all at once.
+
+CSS saves a lot of work. It can control the layout of multiple web pages all at once. External stylesheets are stored in CSS files.
+CSS is the language we use to style an HTML document. CSS describes how HTML elements should be displayed.
+
+CSS stands for Cascading Style Sheets.
+CSS saves time
+External CSS is ideal for large websites
+External CSS is easy to write
+External CSS is easy to maintain
+External CSS can be cached by browsers
+External CSS helps keep the document structure separate from presentation
+External CSS makes it easy to add different styles for different media (e.g., print stylesheets)
+
+CSS stands for Cascading Style Sheets.
+CSS describes how HTML elements are to be displayed on screen.
+
+Ways Of Writing CSS
+1. Inline CSS
+2. Internal CSS
+3. External CSS
+
+1. Inline CSS: Inline CSS is used to apply CSS to a single HTML element. It is defined within the style attribute of an HTML tag. It is used to apply a unique style to a single element.
+2. Internal CSS: Internal CSS is used to apply CSS to a single HTML document. It is defined within the head tag of an HTML document. It is used to apply a unique style to a single document.
+3. External CSS: External CSS is used to apply CSS to multiple HTML documents. It is defined in a separate CSS file. It is used to apply a unique style to multiple documents.
+
+Selectors in CSS
+1. Element Selector
+2. ID Selector
+3. Class Selector
+4. Attribute Selector
+5. Pseudo-class Selector
+6. Pseudo-element Selector
+
+1. Element Selector: Element Selector is used to select all the elements of a particular type. For example, to select all the paragraphs in an HTML document, we can use the p selector.
+2. ID Selector: ID Selector is used to select an element with a specific ID. For example, to select an element with the ID of "myElement", we can use the #myElement selector.
+3. Class Selector: Class Selector is used to select all the elements with a specific class. For example, to select all the elements with the class of "myClass", we can use the .myClass selector.
+4. Attribute Selector: Attribute Selector is used to select elements based on their attributes. For example, to select all the elements with the attribute of "type" equal to "text", we can use the [type="text"] selector.
+5. Pseudo-class Selector: Pseudo-class Selector is used to select elements based on their state. For example, to select all the links that are in the "hover" state, we can use the :hover selector.
+6. Pseudo-element Selector: Pseudo-element Selector is used to select a specific part of an element. For example, to select the first line of a paragraph, we can use the ::first-line selector.
+
+Selector Hierarchy: CSS selectors can be combined to create more specific and powerful selectors. For example, we can use the descendant selector to select all the elements inside a specific element. For example, to select all the paragraphs inside a div element, we can use the div p selector.
+
+which one is the highest?
+The highest specificity is determined by the number of id selectors, class selectors, attribute selectors, pseudo-class selectors, and pseudo-element selectors in the selector. The more selectors there are, the higher the specificity. For example, the selector #myId.myClass[type="text"]:hover::first-line has a higher specificity than the selector .myClass[type="text"]:hover::first-line.
