@@ -6,6 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up To KnowCode</title>
     <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
         body {
             background-color: #6a5840;
         }
@@ -13,7 +20,7 @@
         form {
             background-color: #ffffff;
             margin: 20px 430px;
-            height: 80vh;
+            height: 90vh;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             display: flex;
             flex-direction: column;
@@ -38,7 +45,7 @@
             padding: 10px;
         }
 
-        input:active{
+        input:active {
             border: 1px solid #6a5840;
         }
 
@@ -47,7 +54,7 @@
             color: #ffffff;
             border: 1px solid #6a5840;
             border-radius: 50px;
-            padding: 10px 25px;
+            padding: 10px 130px;
             font-size: 17px;
             font-weight: bold;
             margin-top: 20px;
@@ -66,18 +73,18 @@
             font-size: 16px;
             color: #6a5840;
             text-align: center;
-            margin-top: 10px;
+            margin-top: 15px;
             margin-bottom: 10px;
         }
 
-        span{
+        span {
             text-decoration: 2px underline solid #6a5840;
         }
     </style>
 </head>
 
 <body>
-    <form action="">
+    <form>
         <h1>Sign Up</h1>
         <label for="firstName">First name</label>
         <input type="text" placeholder="example: David" id="firstName" required>
@@ -89,7 +96,7 @@
         <input type="password" placeholder="********" minlength="8" maxlength="8" id="password" required>
         <label for="confirm">Confirm your password</label>
         <input type="password" placeholder="********" minlength="8" maxlength="8" id="confirm" required>
-        <button type="submit" class="submit">Submit</button>
+        <a href="signIn.html"><button type="button" class="submit">Submit</button></a>
         <a href="signIn.html" class="sign">Already have an account? <span>Sign in</span></a>
     </form>
 </body>

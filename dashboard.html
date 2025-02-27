@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KnowCode with us</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(rgba(0, 0, 0, 0.274), rgba(0, 0, 0, 0.596)), url("./images/Workspace.jpg");
+            background-position: center;
+            background-size: cover;
+            height: 100vh;
+            background-repeat: no-repeat;
+        }
+
+        .navbar {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            height: 75px;
+            padding: 30px 10%;
+            justify-content: space-between;
+            background-color: rgba(0, 0, 0, 0.2);
+        }
+
+        .navbar h1 {
+            font-size: 30px;
+            font-weight: bold;
+            color: #ffffff;
+            letter-spacing: 1.5px;
+            cursor: pointer;
+        }
+
+        .navbar h1:hover {
+            color: #6a5840;
+            transition: all 0.4s ease 0s;
+        }
+
+        .nav-list li {
+            display: inline-block;
+            list-style: none;
+            padding: 0px 20px;
+        }
+
+        .nav-list li a,
+        button {
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 500;
+            cursor: pointer;
+            color: white;
+        }
+
+        button {
+            border-radius: 50px;
+            padding: 9px 25px;
+            background-color: #6a5840;
+            border: 1px solid #ffffff;
+            color: #ffffff;
+        }
+
+        button:hover {
+            transition: all 0.4s ease 0s;
+            background-color: #ffffff;
+            color: #6a5840;
+            border: 1px solid #6a5840;
+        }
+
+        .nav-list li a:hover {
+            transition: all 0.4s ease 0s;
+        }
+
+        .hero-section {
+            text-align: center;
+            color: #ffffff;
+        }
+
+        .hero-section h1 {
+            font-size: 64px;
+            margin-top: 11%;
+        }
+
+        .hero-section p {
+            font-size: 20px;
+            margin-top: 10px;
+        }
+
+        .hero-section button {
+            font-size: 24px;
+            margin-top: 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <h1>KnowCode</h1>
+        <ul class="nav-list">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <a href="signIn.html"><button>Sign Out</button></a>
+    </nav>
+    <!-- Hero page section -->
+    <div class="hero-section">
+        <h1>Welcome to KnowCode</h1>
+        <p>A platform where codes are debugged, corrected and explained</p>
+        <a href="#"><button>Navigate</button></a>
+    </div>
+</body>
+
+</html>
